@@ -1,0 +1,23 @@
+- hosts: Slave
+  remote_user: vagrant
+  tasks:
+    - name: Copy bash script to Slave node
+      copy:
+        src: lamp.sh
+        dest: /tmp/lamp.sh
+
+    - name: Execute bash script on Slave node
+      shell: /tmp/lamp.sh
+
+    - name: Verify PHP application is accessible
+      uri:
+        url: http://{{ ansible_ssh_host }}
+        status_code: 200
+
+    - name: Create cron job to check server uptime
+      cron:
+        name: check_uptime
+        minute: 0
+        hour: 0
+        command: /bin/uptime > /tmp/uptime.txt
+
