@@ -32,7 +32,7 @@ Ensure the bash script is reusable and readable.
 ## 02 - Document the steps with screenshots in md files, including proof of the application's accessibility...
 - ![php1_img](</images/vagrant-master.png>)
 - ![php1_img](</images/vagrant-slave.png>)
-- ![php1_img](</ssh-slave-ping-master.png>)
+- ![php1_img](</images/ssh-slave-ping-master.png>)
 - ![php1_img](</images/running-master-vm.png>)
 - ![php1_img](</images/running-slave-vm.png>)
 - ![php1_img](</images/laravel_sh.png>)
