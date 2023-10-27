@@ -30,17 +30,27 @@ Ensure the bash script is reusable and readable.
 - [Ansible PLaybook](https://github.com/wave-cloud0/Alt-School-Exam/blob/main/slave.yaml)
 
 ## 02 - Document the steps with screenshots in md files, including proof of the application's accessibility...
-- ![php1_img](</images/vagrant-master.png>)
-- ![php1_img](</images/vagrant-slave.png>)
-- ![php1_img](</images/ssh-slave-ping-master.png>)
-- ![php1_img](</images/running-master-vm.png>)
-- ![php1_img](</images/running-slave-vm.png>)
-- ![php1_img](</images/laravel_sh.png>)
-- ![php1_img](</images/ansible-hosts-inventory.png>)
-- ![php1_img](</images/ansible-pass-check2.png>)
-- ![php1_img](</images/ansible-pass-check.png>)
+- vagrant up 
+![vagrant-master](</images/vagrant-master.png>)
+![vagrant-slave](</images/vagrant-slave.png>)
+- Verify master and slave are up
+![ssh-slave-ping-master](</images/ssh-slave-ping-master.png>)
+- Running master and slave VMs
+![running-master-vm](</images/running-master-vm.png>)
+![running-slave-vm](</images/running-slave-vm.png>)
+- Running Laravel.sh
+![laravel_sh.](</images/laravel_sh.png>)
+- Ansible Host Inventory
+![ansible-hosts-inventory](</images/ansible-hosts-inventory.png>)
+- Ansible Pass checks and runs successfully
+![ansible-playbook-check](</images/ansible-playbook-check.jpeg>)
+![ansible-playbook-check2](</images/ansible-playbook-check2.jpeg>)
+- Ansible Runs successfully
+![running-Ansible.](</images/running-Ansible.png>)
+![ansible-runs-successfully](</images/ansible-runs-successfully.png>)
 
 ## 03 - Use either the VM's IP address or a domain name as the URL....
-- ![laravel-slave](<images/laravel-slave.png>)
-- ![laravel-master](<images/laravel-master.png>)
-
+- Laravel Page on Slave
+![laravel-slave](<images/laravel-slave.png>)
+- Laravel Page on Master
+![laravel-master](<images/laravel-master.png>)
