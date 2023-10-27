@@ -25,14 +25,22 @@ Ensure the bash script is reusable and readable.
 
 
 ## 01 - Submit the bash script and Ansible playbook...
-- https://link to github page here
-![content_of_output_git_config_l_img](<images/.jpg>)
+- [Bash Script LAMP](https://github.com/wave-cloud0/Alt-School-Exam/blob/main/lamp.sh)
+- [Bash Script Laravel](https://github.com/wave-cloud0/Alt-School-Exam/blob/main/laravel.sh)
+- [Ansible PLaybook](https://github.com/wave-cloud0/Alt-School-Exam/blob/main/slave.yaml)
 
 ## 02 - Document the steps with screenshots in md files, including proof of the application's accessibility...
-- https://
-![php1_img](<images/php1.jpeg>)
+- ![php1_img](</images/vagrant-master.png>)
+- ![php1_img](</images/vagrant-slave.png>)
+- ![php1_img](</ssh-slave-ping-master.png>)
+- ![php1_img](</images/running-master-vm.png>)
+- ![php1_img](</images/running-slave-vm.png>)
+- ![php1_img](</images/laravel_sh.png>)
+- ![php1_img](</images/ansible-hosts-inventory.png>)
+- ![php1_img](</images/ansible-pass-check2.png>)
+- ![php1_img](</images/ansible-pass-check.png>)
 
 ## 03 - Use either the VM's IP address or a domain name as the URL....
-- https://link to github page here
-![php2_img](<images/php2.jpeg>)
+- ![laravel-slave](<images/laravel-slave.png>)
+- ![laravel-master](<images/laravel-master.png>)
 
